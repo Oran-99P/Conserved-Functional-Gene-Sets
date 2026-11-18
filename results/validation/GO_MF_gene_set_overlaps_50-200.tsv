@@ -1,0 +1,119 @@
+GO_ID_A	GO_term_A	n_genes_A	GO_ID_B	GO_term_B	n_genes_B	shared_genes	jaccard	overlap_coefficient	relation
+GO:0000993	RNA polymerase II complex binding	60	GO:0070063	RNA polymerase binding	84	60	0.7143	1.0	A_is_descendant_of_B
+GO:0001221	transcription coregulator binding	129	GO:0001222	transcription corepressor binding	51	51	0.3953	1.0	A_is_ancestor_of_B
+GO:0001221	transcription coregulator binding	129	GO:0001223	transcription coactivator binding	54	54	0.4186	1.0	A_is_ancestor_of_B
+GO:0001540	amyloid-beta binding	82	GO:0042277	peptide binding	179	82	0.4581	1.0	A_is_descendant_of_B
+GO:0001786	phosphatidylserine binding	61	GO:0072341	modified amino acid binding	89	61	0.6854	1.0	A_is_descendant_of_B
+GO:0003678	DNA helicase activity	58	GO:0004386	helicase activity	131	58	0.4427	1.0	A_is_descendant_of_B
+GO:0003678	DNA helicase activity	58	GO:0008094	ATP-dependent activity, acting on DNA	130	58	0.4462	1.0	A_is_descendant_of_B
+GO:0003724	RNA helicase activity	74	GO:0004386	helicase activity	131	74	0.5649	1.0	A_is_descendant_of_B
+GO:0003743	translation initiation factor activity	50	GO:0180051	translation factor activity	79	50	0.6329	1.0	A_is_descendant_of_B
+GO:0003774	cytoskeletal motor activity	116	GO:0003777	microtubule motor activity	68	68	0.5862	1.0	A_is_ancestor_of_B
+GO:0003774	cytoskeletal motor activity	116	GO:0120544	polypeptide conformation or assembly isomerase activity	124	108	0.8182	0.931	not_hierarchical
+GO:0003777	microtubule motor activity	68	GO:0120544	polypeptide conformation or assembly isomerase activity	124	68	0.5484	1.0	A_is_descendant_of_B
+GO:0004197	cysteine-type endopeptidase activity	86	GO:0008234	cysteine-type peptidase activity	188	86	0.4574	1.0	A_is_descendant_of_B
+GO:0004222	metalloendopeptidase activity	109	GO:0008237	metallopeptidase activity	182	109	0.5989	1.0	A_is_descendant_of_B
+GO:0004497	monooxygenase activity	109	GO:0016705	oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen	192	107	0.5515	0.9817	not_hierarchical
+GO:0004497	monooxygenase activity	109	GO:0016712	oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen	50	50	0.4587	1.0	A_is_ancestor_of_B
+GO:0004519	endonuclease activity	138	GO:0004520	DNA endonuclease activity	60	60	0.4348	1.0	A_is_ancestor_of_B
+GO:0004519	endonuclease activity	138	GO:0004521	RNA endonuclease activity	81	81	0.587	1.0	A_is_ancestor_of_B
+GO:0004520	DNA endonuclease activity	60	GO:0004536	DNA nuclease activity	80	60	0.75	1.0	A_is_descendant_of_B
+GO:0004521	RNA endonuclease activity	81	GO:0004540	RNA nuclease activity	133	81	0.609	1.0	A_is_descendant_of_B
+GO:0004527	exonuclease activity	84	GO:0008408	3'-5' exonuclease activity	60	60	0.7143	1.0	A_is_ancestor_of_B
+GO:0004553	hydrolase activity, hydrolyzing O-glycosyl compounds	91	GO:0016798	hydrolase activity, acting on glycosyl bonds	124	91	0.7339	1.0	A_is_descendant_of_B
+GO:0004713	protein tyrosine kinase activity	140	GO:0004714	transmembrane receptor protein tyrosine kinase activity	60	60	0.4286	1.0	A_is_ancestor_of_B
+GO:0004714	transmembrane receptor protein tyrosine kinase activity	60	GO:0019199	transmembrane receptor protein kinase activity	78	60	0.7692	1.0	A_is_descendant_of_B
+GO:0004721	phosphoprotein phosphatase activity	173	GO:0004722	protein serine/threonine phosphatase activity	104	104	0.6012	1.0	A_is_ancestor_of_B
+GO:0004721	phosphoprotein phosphatase activity	173	GO:0004725	protein tyrosine phosphatase activity	97	97	0.5607	1.0	A_is_ancestor_of_B
+GO:0004843	cysteine-type deubiquitinase activity	111	GO:0008234	cysteine-type peptidase activity	188	111	0.5904	1.0	A_is_descendant_of_B
+GO:0004860	protein kinase inhibitor activity	95	GO:0030291	protein serine/threonine kinase inhibitor activity	56	56	0.5895	1.0	A_is_ancestor_of_B
+GO:0004866	endopeptidase inhibitor activity	164	GO:0004867	serine-type endopeptidase inhibitor activity	89	89	0.5427	1.0	A_is_ancestor_of_B
+GO:0004896	cytokine receptor activity	102	GO:0140375	immune receptor activity	194	102	0.5258	1.0	A_is_descendant_of_B
+GO:0005230	extracellular ligand-gated monoatomic ion channel activity	74	GO:0015276	ligand-gated monoatomic ion channel activity	185	74	0.4	1.0	A_is_descendant_of_B
+GO:0005230	extracellular ligand-gated monoatomic ion channel activity	74	GO:0030594	neurotransmitter receptor activity	97	62	0.5688	0.8378	not_hierarchical
+GO:0005230	extracellular ligand-gated monoatomic ion channel activity	74	GO:1904315	transmitter-gated monoatomic ion channel activity involved in regulation of postsynaptic membrane potential	50	50	0.6757	1.0	A_is_ancestor_of_B
+GO:0005246	calcium channel regulator activity	59	GO:0099106	ion channel regulator activity	175	59	0.3371	1.0	A_is_descendant_of_B
+GO:0005249	voltage-gated potassium channel activity	99	GO:0015079	potassium ion transmembrane transporter activity	160	99	0.6188	1.0	A_is_descendant_of_B
+GO:0005249	voltage-gated potassium channel activity	99	GO:0022843	voltage-gated monoatomic cation channel activity	144	99	0.6875	1.0	A_is_descendant_of_B
+GO:0005253	monoatomic anion channel activity	93	GO:0005254	chloride channel activity	73	73	0.7849	1.0	A_is_ancestor_of_B
+GO:0005253	monoatomic anion channel activity	93	GO:0008509	monoatomic anion transmembrane transporter activity	139	93	0.6691	1.0	A_is_descendant_of_B
+GO:0005253	monoatomic anion channel activity	93	GO:0015108	chloride transmembrane transporter activity	111	74	0.5692	0.7957	not_hierarchical
+GO:0005254	chloride channel activity	73	GO:0008509	monoatomic anion transmembrane transporter activity	139	73	0.5252	1.0	A_is_descendant_of_B
+GO:0005254	chloride channel activity	73	GO:0015108	chloride transmembrane transporter activity	111	73	0.6577	1.0	A_is_descendant_of_B
+GO:0005310	dicarboxylic acid transmembrane transporter activity	60	GO:0046943	carboxylic acid transmembrane transporter activity	191	60	0.3141	1.0	A_is_descendant_of_B
+GO:0005319	lipid carrier activity	154	GO:0120013	lipid transfer activity	78	78	0.5065	1.0	A_is_ancestor_of_B
+GO:0005319	lipid carrier activity	154	GO:0140303	intramembrane lipid carrier activity	59	59	0.3831	1.0	A_is_ancestor_of_B
+GO:0005496	steroid binding	103	GO:0015485	cholesterol binding	58	58	0.5631	1.0	A_is_ancestor_of_B
+GO:0005539	glycosaminoglycan binding	174	GO:0008201	heparin binding	131	131	0.7529	1.0	A_is_ancestor_of_B
+GO:0005546	phosphatidylinositol-4,5-bisphosphate binding	84	GO:1901981	phosphatidylinositol phosphate binding	183	84	0.459	1.0	A_is_descendant_of_B
+GO:0005546	phosphatidylinositol-4,5-bisphosphate binding	84	GO:1902936	phosphatidylinositol bisphosphate binding	124	84	0.6774	1.0	A_is_descendant_of_B
+GO:0008009	chemokine activity	50	GO:0042379	chemokine receptor binding	74	50	0.6757	1.0	A_is_descendant_of_B
+GO:0008146	sulfotransferase activity	53	GO:0016782	transferase activity, transferring sulphur-containing groups	70	53	0.7571	1.0	A_is_descendant_of_B
+GO:0008170	N-methyltransferase activity	103	GO:0008276	protein methyltransferase activity	98	81	0.675	0.8265	not_hierarchical
+GO:0008170	N-methyltransferase activity	103	GO:0008757	S-adenosylmethionine-dependent methyltransferase activity	170	103	0.6059	1.0	not_hierarchical
+GO:0008170	N-methyltransferase activity	103	GO:0016279	protein-lysine N-methyltransferase activity	63	63	0.6117	1.0	A_is_ancestor_of_B
+GO:0008170	N-methyltransferase activity	103	GO:0042054	histone methyltransferase activity	58	56	0.5333	0.9655	not_hierarchical
+GO:0008188	neuropeptide receptor activity	57	GO:0008528	G protein-coupled peptide receptor activity	124	57	0.4597	1.0	A_is_descendant_of_B
+GO:0008194	UDP-glycosyltransferase activity	147	GO:0016758	hexosyltransferase activity	197	139	0.678	0.9456	not_hierarchical
+GO:0008200	ion channel inhibitor activity	52	GO:0099106	ion channel regulator activity	175	52	0.2971	1.0	A_is_descendant_of_B
+GO:0008235	metalloexopeptidase activity	71	GO:0008237	metallopeptidase activity	182	71	0.3901	1.0	A_is_descendant_of_B
+GO:0008235	metalloexopeptidase activity	71	GO:0008238	exopeptidase activity	104	71	0.6827	1.0	A_is_descendant_of_B
+GO:0008276	protein methyltransferase activity	98	GO:0008757	S-adenosylmethionine-dependent methyltransferase activity	170	91	0.5141	0.9286	not_hierarchical
+GO:0008276	protein methyltransferase activity	98	GO:0016279	protein-lysine N-methyltransferase activity	63	63	0.6429	1.0	A_is_ancestor_of_B
+GO:0008276	protein methyltransferase activity	98	GO:0042054	histone methyltransferase activity	58	58	0.5918	1.0	A_is_ancestor_of_B
+GO:0008509	monoatomic anion transmembrane transporter activity	139	GO:0015108	chloride transmembrane transporter activity	111	111	0.7986	1.0	A_is_ancestor_of_B
+GO:0008757	S-adenosylmethionine-dependent methyltransferase activity	170	GO:0016279	protein-lysine N-methyltransferase activity	63	63	0.3706	1.0	A_is_ancestor_of_B
+GO:0008757	S-adenosylmethionine-dependent methyltransferase activity	170	GO:0042054	histone methyltransferase activity	58	57	0.3333	0.9828	not_hierarchical
+GO:0009055	electron transfer activity	111	GO:0015453	oxidoreduction-driven active transmembrane transporter activity	66	60	0.5128	0.9091	not_hierarchical
+GO:0015081	sodium ion transmembrane transporter activity	168	GO:0015370	solute:sodium symporter activity	84	84	0.5	1.0	A_is_ancestor_of_B
+GO:0015171	amino acid transmembrane transporter activity	101	GO:0015179	L-amino acid transmembrane transporter activity	62	62	0.6139	1.0	A_is_ancestor_of_B
+GO:0015171	amino acid transmembrane transporter activity	101	GO:0046943	carboxylic acid transmembrane transporter activity	191	98	0.5052	0.9703	not_hierarchical
+GO:0015179	L-amino acid transmembrane transporter activity	62	GO:0046943	carboxylic acid transmembrane transporter activity	191	62	0.3246	1.0	A_is_descendant_of_B
+GO:0015276	ligand-gated monoatomic ion channel activity	185	GO:0099094	ligand-gated monoatomic cation channel activity	137	137	0.7405	1.0	A_is_ancestor_of_B
+GO:0015276	ligand-gated monoatomic ion channel activity	185	GO:1904315	transmitter-gated monoatomic ion channel activity involved in regulation of postsynaptic membrane potential	50	50	0.2703	1.0	A_is_ancestor_of_B
+GO:0015294	solute:monoatomic cation symporter activity	122	GO:0015370	solute:sodium symporter activity	84	84	0.6885	1.0	A_is_ancestor_of_B
+GO:0015399	primary active transmembrane transporter activity	165	GO:0015453	oxidoreduction-driven active transmembrane transporter activity	66	66	0.4	1.0	A_is_ancestor_of_B
+GO:0015399	primary active transmembrane transporter activity	165	GO:0019829	ATPase-coupled monoatomic cation transmembrane transporter activity	54	54	0.3273	1.0	A_is_ancestor_of_B
+GO:0015399	primary active transmembrane transporter activity	165	GO:0022853	active monoatomic ion transmembrane transporter activity	115	115	0.697	1.0	A_is_ancestor_of_B
+GO:0015399	primary active transmembrane transporter activity	165	GO:0042626	ATPase-coupled transmembrane transporter activity	99	99	0.6	1.0	A_is_ancestor_of_B
+GO:0015399	primary active transmembrane transporter activity	165	GO:0140359	ABC-type transporter activity	51	51	0.3091	1.0	A_is_ancestor_of_B
+GO:0015453	oxidoreduction-driven active transmembrane transporter activity	66	GO:0022853	active monoatomic ion transmembrane transporter activity	115	61	0.5083	0.9242	not_hierarchical
+GO:0015459	potassium channel regulator activity	66	GO:0099106	ion channel regulator activity	175	66	0.3771	1.0	A_is_descendant_of_B
+GO:0015485	cholesterol binding	58	GO:0043178	alcohol binding	89	58	0.6517	1.0	A_is_descendant_of_B
+GO:0015605	organophosphate ester transmembrane transporter activity	53	GO:0015932	nucleobase-containing compound transmembrane transporter activity	59	47	0.7231	0.8868	not_hierarchical
+GO:0015605	organophosphate ester transmembrane transporter activity	53	GO:1901505	carbohydrate derivative transmembrane transporter activity	61	43	0.6056	0.8113	not_hierarchical
+GO:0015932	nucleobase-containing compound transmembrane transporter activity	59	GO:1901505	carbohydrate derivative transmembrane transporter activity	61	48	0.6667	0.8136	not_hierarchical
+GO:0016251	RNA polymerase II general transcription initiation factor activity	54	GO:0140223	general transcription initiation factor activity	69	54	0.7826	1.0	A_is_descendant_of_B
+GO:0016279	protein-lysine N-methyltransferase activity	63	GO:0042054	histone methyltransferase activity	58	44	0.5714	0.7586	not_hierarchical
+GO:0016407	acetyltransferase activity	91	GO:0034212	protein N-acetyltransferase activity	51	51	0.5604	1.0	A_is_ancestor_of_B
+GO:0016616	oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor	125	GO:0018455	alcohol dehydrogenase [NAD(P)+] activity	56	56	0.448	1.0	A_is_ancestor_of_B
+GO:0016651	oxidoreductase activity, acting on NAD(P)H	92	GO:0016655	oxidoreductase activity, acting on NAD(P)H, quinone or similar compound as acceptor	60	60	0.6522	1.0	A_is_ancestor_of_B
+GO:0016705	oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen	192	GO:0016706	2-oxoglutarate-dependent dioxygenase activity	68	68	0.3542	1.0	A_is_ancestor_of_B
+GO:0016705	oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen	192	GO:0016712	oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen	50	50	0.2604	1.0	A_is_ancestor_of_B
+GO:0016706	2-oxoglutarate-dependent dioxygenase activity	68	GO:0051213	dioxygenase activity	92	68	0.7391	1.0	A_is_descendant_of_B
+GO:0016712	oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen	50	GO:0020037	heme binding	143	48	0.331	0.96	not_hierarchical
+GO:0016810	hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds	129	GO:0016811	hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds, in linear amides	70	70	0.5426	1.0	A_is_ancestor_of_B
+GO:0016829	lyase activity	195	GO:0016830	carbon-carbon lyase activity	54	54	0.2769	1.0	A_is_ancestor_of_B
+GO:0016829	lyase activity	195	GO:0016835	carbon-oxygen lyase activity	80	80	0.4103	1.0	A_is_ancestor_of_B
+GO:0016829	lyase activity	195	GO:0016836	hydro-lyase activity	62	62	0.3179	1.0	A_is_ancestor_of_B
+GO:0016835	carbon-oxygen lyase activity	80	GO:0016836	hydro-lyase activity	62	62	0.775	1.0	A_is_ancestor_of_B
+GO:0017046	peptide hormone binding	52	GO:0042562	hormone binding	94	52	0.5532	1.0	A_is_descendant_of_B
+GO:0019829	ATPase-coupled monoatomic cation transmembrane transporter activity	54	GO:0022853	active monoatomic ion transmembrane transporter activity	115	54	0.4696	1.0	A_is_descendant_of_B
+GO:0019829	ATPase-coupled monoatomic cation transmembrane transporter activity	54	GO:0042626	ATPase-coupled transmembrane transporter activity	99	54	0.5455	1.0	A_is_descendant_of_B
+GO:0019842	vitamin binding	132	GO:0030170	pyridoxal phosphate binding	55	55	0.4167	1.0	A_is_ancestor_of_B
+GO:0019902	phosphatase binding	194	GO:0019903	protein phosphatase binding	147	147	0.7577	1.0	A_is_ancestor_of_B
+GO:0030159	signaling receptor complex adaptor activity	54	GO:0035591	signaling adaptor activity	144	54	0.375	1.0	A_is_descendant_of_B
+GO:0030246	carbohydrate binding	177	GO:0048029	monosaccharide binding	67	67	0.3785	1.0	A_is_ancestor_of_B
+GO:0030295	protein kinase activator activity	144	GO:0043539	protein serine/threonine kinase activator activity	76	76	0.5278	1.0	A_is_ancestor_of_B
+GO:0030544	Hsp70 protein binding	53	GO:0031072	heat shock protein binding	133	53	0.3985	1.0	A_is_descendant_of_B
+GO:0030544	Hsp70 protein binding	53	GO:0051087	protein-folding chaperone binding	138	53	0.3841	1.0	A_is_descendant_of_B
+GO:0030594	neurotransmitter receptor activity	97	GO:1904315	transmitter-gated monoatomic ion channel activity involved in regulation of postsynaptic membrane potential	50	50	0.5155	1.0	A_is_ancestor_of_B
+GO:0030971	receptor tyrosine kinase binding	82	GO:1990782	protein tyrosine kinase binding	120	82	0.6833	1.0	A_is_descendant_of_B
+GO:0031593	polyubiquitin modification-dependent protein binding	57	GO:0140030	modification-dependent protein binding	83	57	0.6867	1.0	A_is_descendant_of_B
+GO:0042626	ATPase-coupled transmembrane transporter activity	99	GO:0140359	ABC-type transporter activity	51	51	0.5152	1.0	A_is_ancestor_of_B
+GO:0043021	ribonucleoprotein complex binding	178	GO:0043022	ribosome binding	113	113	0.6348	1.0	A_is_ancestor_of_B
+GO:0045309	protein phosphorylated amino acid binding	59	GO:0051219	phosphoprotein binding	95	59	0.6211	1.0	A_is_descendant_of_B
+GO:0098631	cell adhesion mediator activity	104	GO:0098632	cell-cell adhesion mediator activity	66	66	0.6346	1.0	A_is_ancestor_of_B
+GO:0140006	histone H3 reader activity	74	GO:0140566	histone reader activity	116	74	0.6379	1.0	A_is_descendant_of_B
+GO:0140311	protein sequestering activity	67	GO:0140313	molecular sequestering activity	102	67	0.6569	1.0	A_is_descendant_of_B
+GO:1901981	phosphatidylinositol phosphate binding	183	GO:1902936	phosphatidylinositol bisphosphate binding	124	114	0.5907	0.9194	not_hierarchical
