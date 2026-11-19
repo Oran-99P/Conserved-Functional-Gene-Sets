@@ -1,0 +1,105 @@
+{
+ "groups": 270,
+ "unique_mouse_genes": 10942,
+ "memberships": 30172,
+ "mouse_size": {
+  "min": 41,
+  "median": 92.0,
+  "max": 298,
+  "mean": 111.75
+ },
+ "mouse_to_human_size_ratio": {
+  "min": 0.759,
+  "median": 0.986,
+  "max": 2.311
+ },
+ "groups_zero_mouse_genes": [],
+ "groups_mouse_larger_than_human": 88,
+ "groups_mouse_over_300": [],
+ "groups_mouse_under_50": [
+  [
+   "GO:0008009",
+   "chemokine activity",
+   "41"
+  ],
+  [
+   "GO:0008200",
+   "ion channel inhibitor activity",
+   "49"
+  ],
+  [
+   "GO:0016251",
+   "RNA polymerase II general transcription initiation factor activity",
+   "41"
+  ],
+  [
+   "GO:0016538",
+   "cyclin-dependent protein serine/threonine kinase regulator activity",
+   "47"
+  ],
+  [
+   "GO:0030547",
+   "signaling receptor inhibitor activity",
+   "48"
+  ],
+  [
+   "GO:0034212",
+   "protein N-acetyltransferase activity",
+   "49"
+  ],
+  [
+   "GO:0061980",
+   "regulatory RNA binding",
+   "49"
+  ],
+  [
+   "GO:1904315",
+   "transmitter-gated monoatomic ion channel activity involved in regulation of postsynaptic membrane potential",
+   "49"
+  ]
+ ],
+ "mouse_genes_without_symbol": [
+  "ENSMUSG00000074720",
+  "ENSMUSG00000091585",
+  "ENSMUSG00000094172",
+  "ENSMUSG00000094303",
+  "ENSMUSG00000094337",
+  "ENSMUSG00000094383",
+  "ENSMUSG00000094474",
+  "ENSMUSG00000094514",
+  "ENSMUSG00000094722",
+  "ENSMUSG00000094741",
+  "ENSMUSG00000094791",
+  "ENSMUSG00000094836",
+  "ENSMUSG00000094855",
+  "ENSMUSG00000094887",
+  "ENSMUSG00000094915",
+  "ENSMUSG00000095041",
+  "ENSMUSG00000095475",
+  "ENSMUSG00000095505",
+  "ENSMUSG00000095523",
+  "ENSMUSG00000095570",
+  "ENSMUSG00000095666",
+  "ENSMUSG00000095763",
+  "ENSMUSG00000096236",
+  "ENSMUSG00000096680",
+  "ENSMUSG00000096728",
+  "ENSMUSG00000096756",
+  "ENSMUSG00000121742",
+  "ENSMUSG00000134847"
+ ],
+ "mouse_symbols_shared_by_several_ids": {},
+ "validation": [
+  "PASS 270 human groups and 270 mouse groups (TSV, GMT, paired summary)",
+  "PASS GO IDs identical across human and mouse files",
+  "PASS human collection unchanged (SHA-256 of all 5 human output files match run_metadata.json)",
+  "PASS every mouse gene in every group is backed by a r116 pair with a human gene of that group",
+  "PASS all 30,172 expected group x mouse-gene memberships present (all one2many/many2many partners kept, nothing added)",
+  "PASS no duplicate mouse Ensembl IDs within any group",
+  "PASS per-group mouse counts agree between set TSV, membership TSV, GMT and paired summary",
+  "PASS GMT gene lists equal membership TSV gene lists",
+  "PASS paired summary agrees with GO_set_ortholog_coverage_r116.tsv for every group",
+  "PASS only Ensembl mouse IDs from the r116 mapping are used (no substitutions, no symbols as IDs)",
+  "PASS per-group human counts are exhaustive (mapped + unmapped = original)"
+ ]
+}

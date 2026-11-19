@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-11-17T21:23:52+00:00",
+  "generated_utc": "2026-11-18T16:08:51+00:00",
   "python": "3.12.15",
-  "script_sha256": "4aa1ed33c0558c0c2a4d4bf7990a3109e922ef0b2d7f9ff28d9c5d89d34d385b",
+  "script_sha256": "81163a82702c5165656763f480e19ffe3ca2c2abca382106d3235535617ccce8",
   "command": "build_go_gene_sets.py",
   "sources": {
     "go-basic.obo": {
@@ -19,7 +19,7 @@
   },
   "parameters": {
     "min_genes": 50,
-    "max_genes": 200,
+    "max_genes": 300,
     "jaccard_threshold": 0.8,
     "overlap_report_thresholds": {
       "jaccard": 0.5,
@@ -31,7 +31,7 @@
     "annotations": "UniProtKB, taxon 9606, aspect F; NOT qualifier and ND evidence removed; all other evidence codes kept (incl. IEA); alt_id mapped to primary ID; obsolete terms dropped",
     "propagation": "is_a edges only; genes propagated to all is_a ancestors",
     "depth": "min_depth = shortest is_a path from root; max_depth = longest is_a path from root",
-    "selection": "terms with 50-200 genes at any depth; visited by descending max_depth, then size, then GO ID; removed if a retained term has an identical gene set, or a retained descendant has Jaccard >= 0.8; no coverage objective, no group cap",
+    "selection": "terms with 50-300 genes at any depth; visited by descending max_depth, then size, then GO ID; removed if a retained term has an identical gene set, or a retained descendant has Jaccard >= 0.8; no coverage objective, no group cap",
     "flags": "pct_* and family columns are informational only and do not affect membership"
   },
   "gaf_qc": {
@@ -45,48 +45,48 @@
     "GO_MF_terms": 10041,
     "annotated_gene_universe": 18293,
     "universe_excluding_protein_binding_only_genes": 16205,
-    "candidate_terms_in_size_range": 286,
-    "candidate_unique_genes": 9799,
+    "candidate_terms_in_size_range": 313,
+    "candidate_unique_genes": 11133,
     "removed_exact_duplicates": 2,
-    "removed_hierarchical_near_duplicates": 38,
-    "final_gene_sets": 246,
-    "final_unique_genes": 9742,
-    "coverage_pct_of_universe": 53.26,
-    "coverage_pct_excluding_protein_binding_only": 60.12,
+    "removed_hierarchical_near_duplicates": 41,
+    "final_gene_sets": 270,
+    "final_unique_genes": 11086,
+    "coverage_pct_of_universe": 60.6,
+    "coverage_pct_excluding_protein_binding_only": 68.41,
     "size_distribution": {
       "min": 50,
-      "q1": 62.0,
-      "median": 84.0,
-      "mean": 98.33,
-      "q3": 129.75,
-      "max": 200
+      "q1": 63.0,
+      "median": 91.5,
+      "mean": 111.86,
+      "q3": 139.75,
+      "max": 298
     },
     "min_depth_distribution": {
       "1": 9,
-      "2": 28,
-      "3": 67,
-      "4": 73,
-      "5": 43,
-      "6": 21,
+      "2": 29,
+      "3": 76,
+      "4": 80,
+      "5": 49,
+      "6": 22,
       "7": 5
     },
     "overlap": {
-      "pairs_total": 30135,
-      "ancestor_descendant_pairs": 99,
+      "pairs_total": 36315,
+      "ancestor_descendant_pairs": 142,
       "exact_duplicate_pairs": 0,
-      "fully_nested_pairs": 100,
+      "fully_nested_pairs": 143,
       "hierarchical_pairs_jaccard_ge_threshold": 0,
-      "pairs_jaccard_ge_0.5": 80,
+      "pairs_jaccard_ge_0.5": 89,
       "pairs_jaccard_ge_threshold": 1,
-      "pairs_overlap_coefficient_ge_0.95": 105,
-      "pairs_sharing_genes": 7109
+      "pairs_overlap_coefficient_ge_0.95": 148,
+      "pairs_sharing_genes": 9781
     }
   },
   "outputs": {
-    "GO_MF_gene_sets_50-200.gmt": "043a73ceaca368b43dde9d0a8e0563e8071c14ceabc25b776b17fefab9163007",
-    "GO_MF_gene_sets_50-200.tsv": "39ba812e955703b48e972e5361480b8a0a103827ca4d4d83a66dbafc0858bf24",
-    "GO_MF_gene_set_membership_50-200.tsv": "e75142cca300da5ba844c14f907b215ef094bf17c5ab359482a2a5a5e6b91f0a",
-    "GO_MF_candidates_50-200_redundancy_audit.tsv": "fd9fb60e738c5c92bfeaaabca53fb156324b5bcdcc41c44d55c8175060e97af3",
-    "GO_MF_gene_set_overlaps_50-200.tsv": "1ac68a21ca57649eb9cfe19dfd1100ecb886812cae7b6eec3913bf4b9fb0aa55"
+    "GO_MF_gene_sets_50-300.gmt": "79873e8f7e8faa5170770f2ad63012b9423eaf8e065fe2e99e9473f70f8e09c5",
+    "GO_MF_gene_sets_50-300.tsv": "9b683bec081581e2f57b90a5dc7a957ffa040ebe60cc9daf2f927d368ad0d5cc",
+    "GO_MF_gene_set_membership_50-300.tsv": "a9088d8de3ef74d8e228d7d051141955ac6ed994f1210c28cc88d7e85825e6b1",
+    "validation/GO_MF_candidates_50-300_redundancy_audit.tsv": "802d33c13bc9dda4877896db6eed5f148c4d4ceb415c40c0d61890d244e26ad2",
+    "validation/GO_MF_gene_set_overlaps_50-300.tsv": "e4c64f40f6656abb0ac4aa739ab5681b84814ed0fe1f7d9c983b5ef0d44ca770"
   }
 }

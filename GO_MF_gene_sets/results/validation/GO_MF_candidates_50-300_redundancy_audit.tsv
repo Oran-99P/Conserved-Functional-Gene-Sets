@@ -1,18 +1,22 @@
 GO_ID	GO_term	min_depth	max_depth	n_genes	status	retained_GO_ID	retained_GO_term	jaccard	overlap_coefficient	relation
 GO:0000049	tRNA binding	4	4	63	retained					
 GO:0000149	SNARE binding	3	3	82	retained					
+GO:0000287	magnesium ion binding	6	6	237	retained					
 GO:0000993	RNA polymerase II complex binding	6	6	60	retained					
 GO:0001221	transcription coregulator binding	4	4	129	retained					
 GO:0001222	transcription corepressor binding	5	5	51	retained					
 GO:0001223	transcription coactivator binding	5	5	54	retained					
 GO:0001540	amyloid-beta binding	3	3	82	retained					
 GO:0001653	peptide receptor activity	3	3	130	removed_hierarchical_near_duplicate	GO:0008528	G protein-coupled peptide receptor activity	0.9538	1.0	removed_is_ancestor_of_retained
+GO:0001664	G protein-coupled receptor binding	4	4	298	retained					
 GO:0001786	phosphatidylserine binding	3	5	61	retained					
 GO:0002020	protease binding	4	4	137	retained					
 GO:0002039	p53 binding	3	3	71	retained					
 GO:0003678	DNA helicase activity	3	6	58	retained					
 GO:0003684	damaged DNA binding	4	4	75	retained					
 GO:0003697	single-stranded DNA binding	4	4	123	retained					
+GO:0003713	transcription coactivator activity	3	3	298	retained					
+GO:0003714	transcription corepressor activity	3	3	217	retained					
 GO:0003724	RNA helicase activity	3	6	74	retained					
 GO:0003725	double-stranded RNA binding	4	4	76	retained					
 GO:0003727	single-stranded RNA binding	4	4	84	retained					
@@ -28,6 +32,7 @@ GO:0004222	metalloendopeptidase activity	5	5	109	retained
 GO:0004252	serine-type endopeptidase activity	5	5	179	retained					
 GO:0004386	helicase activity	2	5	131	retained					
 GO:0004497	monooxygenase activity	3	3	109	retained					
+GO:0004518	nuclease activity	3	3	216	retained					
 GO:0004519	endonuclease activity	4	4	138	retained					
 GO:0004520	DNA endonuclease activity	5	5	60	retained					
 GO:0004521	RNA endonuclease activity	5	5	81	retained					
@@ -48,6 +53,10 @@ GO:0004867	serine-type endopeptidase inhibitor activity	6	6	89	retained
 GO:0004879	nuclear receptor activity	3	4	59	retained					
 GO:0004896	cytokine receptor activity	4	4	102	retained					
 GO:0005080	protein kinase C binding	6	6	50	retained					
+GO:0005085	guanyl-nucleotide exchange factor activity	5	5	236	retained					
+GO:0005096	GTPase activator activity	4	5	249	retained					
+GO:0005125	cytokine activity	5	5	215	retained					
+GO:0005126	cytokine receptor binding	4	4	277	retained					
 GO:0005178	integrin binding	3	4	152	retained					
 GO:0005179	hormone activity	5	5	131	retained					
 GO:0005200	structural constituent of cytoskeleton	2	2	126	retained					
@@ -73,6 +82,7 @@ GO:0005546	phosphatidylinositol-4,5-bisphosphate binding	5	6	84	retained
 GO:0005549	odorant binding	2	2	74	retained					
 GO:0008009	chemokine activity	6	6	50	retained					
 GO:0008013	beta-catenin binding	3	3	107	retained					
+GO:0008017	microtubule binding	5	5	284	retained					
 GO:0008080	N-acetyltransferase activity	6	6	63	removed_hierarchical_near_duplicate	GO:0034212	protein N-acetyltransferase activity	0.8095	1.0	removed_is_ancestor_of_retained
 GO:0008081	phosphoric diester hydrolase activity	5	5	87	retained					
 GO:0008083	growth factor activity	5	5	139	retained					
@@ -106,6 +116,7 @@ GO:0015108	chloride transmembrane transporter activity	5	5	111	retained
 GO:0015171	amino acid transmembrane transporter activity	3	3	101	retained					
 GO:0015179	L-amino acid transmembrane transporter activity	4	4	62	retained					
 GO:0015276	ligand-gated monoatomic ion channel activity	5	7	185	retained					
+GO:0015291	secondary active transmembrane transporter activity	4	4	261	retained					
 GO:0015293	symporter activity	5	5	128	removed_hierarchical_near_duplicate	GO:0015294	solute:monoatomic cation symporter activity	0.9531	1.0	removed_is_ancestor_of_retained
 GO:0015294	solute:monoatomic cation symporter activity	5	6	122	retained					
 GO:0015297	antiporter activity	5	5	120	retained					
@@ -135,11 +146,15 @@ GO:0016667	oxidoreductase activity, acting on a sulfur group of donors	3	3	57	re
 GO:0016705	oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen	3	3	192	retained					
 GO:0016706	2-oxoglutarate-dependent dioxygenase activity	4	4	68	retained					
 GO:0016712	oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen	4	4	50	retained					
+GO:0016741	transferase activity, transferring one-carbon groups	3	3	203	removed_hierarchical_near_duplicate	GO:0008757	S-adenosylmethionine-dependent methyltransferase activity	0.8374	1.0	removed_is_ancestor_of_retained
+GO:0016747	acyltransferase activity, transferring groups other than amino-acyl groups	4	4	226	retained					
+GO:0016757	glycosyltransferase activity	3	3	265	retained					
 GO:0016758	hexosyltransferase activity	4	4	197	retained					
 GO:0016763	pentosyltransferase activity	4	4	51	retained					
 GO:0016765	transferase activity, transferring alkyl or aryl (other than methyl) groups	3	3	62	retained					
 GO:0016779	nucleotidyltransferase activity	4	4	132	retained					
 GO:0016782	transferase activity, transferring sulphur-containing groups	3	3	70	retained					
+GO:0016791	phosphatase activity	5	5	274	retained					
 GO:0016798	hydrolase activity, acting on glycosyl bonds	3	3	124	retained					
 GO:0016810	hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds	3	3	129	retained					
 GO:0016811	hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds, in linear amides	4	4	70	retained					
@@ -153,6 +168,7 @@ GO:0016922	nuclear receptor binding	6	6	138	retained
 GO:0017022	myosin binding	4	4	74	retained					
 GO:0017046	peptide hormone binding	3	3	52	retained					
 GO:0017124	SH3 domain binding	4	4	64	retained					
+GO:0017171	serine hydrolase activity	3	3	203	removed_hierarchical_near_duplicate	GO:0004252	serine-type endopeptidase activity	0.8818	1.0	removed_is_ancestor_of_retained
 GO:0018455	alcohol dehydrogenase [NAD(P)+] activity	5	5	56	retained					
 GO:0019003	GDP binding	5	8	63	retained					
 GO:0019199	transmembrane receptor protein kinase activity	4	6	78	retained					
@@ -164,6 +180,7 @@ GO:0019829	ATPase-coupled monoatomic cation transmembrane transporter activity	3
 GO:0019838	growth factor binding	3	3	128	retained					
 GO:0019842	vitamin binding	3	3	132	retained					
 GO:0019843	rRNA binding	4	4	61	retained					
+GO:0019887	protein kinase regulator activity	4	4	270	retained					
 GO:0019888	protein phosphatase regulator activity	4	4	101	retained					
 GO:0019902	phosphatase binding	4	4	194	retained					
 GO:0019903	protein phosphatase binding	5	5	147	retained					
@@ -191,9 +208,12 @@ GO:0030547	signaling receptor inhibitor activity	3	3	50	retained
 GO:0030594	neurotransmitter receptor activity	3	3	97	retained					
 GO:0030971	receptor tyrosine kinase binding	4	7	82	retained					
 GO:0031072	heat shock protein binding	3	3	133	retained					
+GO:0031267	small GTPase binding	5	5	289	retained					
+GO:0031406	carboxylic acid binding	4	5	206	retained					
 GO:0031490	chromatin DNA binding	3	4	130	retained					
 GO:0031491	nucleosome binding	3	3	81	retained					
 GO:0031593	polyubiquitin modification-dependent protein binding	4	4	57	retained					
+GO:0031625	ubiquitin protein ligase binding	5	5	289	retained					
 GO:0032182	ubiquitin-like protein binding	3	3	124	removed_hierarchical_near_duplicate	GO:0043130	ubiquitin binding	0.8387	1.0	removed_is_ancestor_of_retained
 GO:0032934	sterol binding	4	4	71	removed_hierarchical_near_duplicate	GO:0015485	cholesterol binding	0.8169	1.0	removed_is_ancestor_of_retained
 GO:0033293	monocarboxylic acid binding	5	6	81	retained					
@@ -213,6 +233,7 @@ GO:0043021	ribonucleoprotein complex binding	3	3	178	retained
 GO:0043022	ribosome binding	4	4	113	retained					
 GO:0043130	ubiquitin binding	4	4	104	retained					
 GO:0043175	RNA polymerase core enzyme binding	5	5	66	removed_hierarchical_near_duplicate	GO:0000993	RNA polymerase II complex binding	0.9091	1.0	removed_is_ancestor_of_retained
+GO:0043177	organic acid binding	3	3	208	removed_hierarchical_near_duplicate	GO:0031406	carboxylic acid binding	0.9904	1.0	removed_is_ancestor_of_retained
 GO:0043178	alcohol binding	3	3	89	retained					
 GO:0043495	protein-membrane adaptor activity	3	3	58	retained					
 GO:0043539	protein serine/threonine kinase activator activity	6	6	76	retained					
@@ -228,6 +249,7 @@ GO:0048306	calcium-dependent protein binding	3	3	81	retained
 GO:0050660	flavin adenine dinucleotide binding	4	5	86	retained					
 GO:0050661	NADP binding	6	7	53	retained					
 GO:0050840	extracellular matrix binding	2	2	62	retained					
+GO:0051015	actin filament binding	3	5	210	retained					
 GO:0051018	protein kinase A binding	3	3	53	retained					
 GO:0051087	protein-folding chaperone binding	3	3	138	retained					
 GO:0051117	ATPase binding	4	4	88	retained					
@@ -237,6 +259,7 @@ GO:0051287	NAD binding	6	7	54	retained
 GO:0051536	iron-sulfur cluster binding	4	4	51	retained					
 GO:0051540	metal cluster binding	3	3	52	removed_hierarchical_near_duplicate	GO:0051536	iron-sulfur cluster binding	0.9808	1.0	removed_is_ancestor_of_retained
 GO:0052689	carboxylic ester hydrolase activity	4	4	151	retained					
+GO:0061134	peptidase regulator activity	3	3	230	retained					
 GO:0061135	endopeptidase regulator activity	4	4	193	removed_hierarchical_near_duplicate	GO:0004866	endopeptidase inhibitor activity	0.8497	1.0	removed_is_ancestor_of_retained
 GO:0061980	regulatory RNA binding	4	4	50	retained					
 GO:0070063	RNA polymerase binding	4	4	84	retained					
@@ -252,11 +275,13 @@ GO:0099094	ligand-gated monoatomic cation channel activity	6	8	137	retained
 GO:0099106	ion channel regulator activity	4	4	175	retained					
 GO:0101005	deubiquitinase activity	5	5	117	removed_hierarchical_near_duplicate	GO:0004843	cysteine-type deubiquitinase activity	0.9487	1.0	removed_is_ancestor_of_retained
 GO:0120013	lipid transfer activity	2	3	78	retained					
+GO:0120543	macromolecular conformation isomerase activity	3	3	268	retained					
 GO:0120544	polypeptide conformation or assembly isomerase activity	4	4	124	retained					
 GO:0120545	nucleic acid conformation isomerase activity	4	4	144	removed_hierarchical_near_duplicate	GO:0004386	helicase activity	0.9097	1.0	removed_is_ancestor_of_retained
 GO:0120569	phospholipase activity	5	5	111	removed_hierarchical_near_duplicate	GO:0004620	glycerophospholipase activity	0.955	1.0	removed_is_ancestor_of_retained
 GO:0140006	histone H3 reader activity	5	5	74	retained					
 GO:0140030	modification-dependent protein binding	3	3	83	retained					
+GO:0140097	catalytic activity, acting on DNA	3	3	271	retained					
 GO:0140101	catalytic activity, acting on a tRNA	4	4	156	retained					
 GO:0140186	protein N-acyltransferase activity	3	5	51	removed_exact_duplicate	GO:0034212	protein N-acetyltransferase activity	1.0	1.0	removed_is_ancestor_of_retained
 GO:0140223	general transcription initiation factor activity	1	1	69	retained					
@@ -272,12 +297,14 @@ GO:0140566	histone reader activity	4	4	116	retained
 GO:0140597	protein carrier activity	2	2	72	retained					
 GO:0140693	molecular condensate scaffold activity	3	3	54	retained					
 GO:0140767	enzyme-substrate adaptor activity	3	3	181	removed_hierarchical_near_duplicate	GO:1990756	ubiquitin-like ligase-substrate adaptor activity	0.8453	1.0	removed_is_ancestor_of_retained
+GO:0140993	histone modifying activity	3	3	202	retained					
 GO:0141108	transporter regulator activity	2	2	197	removed_hierarchical_near_duplicate	GO:0099106	ion channel regulator activity	0.8883	1.0	removed_is_ancestor_of_retained
 GO:0141110	transporter inhibitor activity	3	3	57	removed_hierarchical_near_duplicate	GO:0008200	ion channel inhibitor activity	0.9123	1.0	removed_is_ancestor_of_retained
 GO:0160215	deacylase activity	2	2	81	retained					
 GO:0170055	lipid transmembrane transporter activity	3	3	58	retained					
 GO:0180051	translation factor activity	1	1	79	retained					
 GO:1901505	carbohydrate derivative transmembrane transporter activity	3	3	61	retained					
+GO:1901681	sulfur compound binding	2	2	227	retained					
 GO:1901682	sulfur compound transmembrane transporter activity	3	3	63	retained					
 GO:1901981	phosphatidylinositol phosphate binding	4	4	183	retained					
 GO:1902936	phosphatidylinositol bisphosphate binding	5	5	124	retained					

@@ -1,0 +1,271 @@
+GO_ID	GO_term	n_human_genes	n_human_with_mouse_ortholog	pct_human_with_mouse_ortholog	n_distinct_mouse_genes	n_human_one2one	n_human_non_one2one_only	n_human_unmapped	n_human_no_mouse_ortholog	n_human_unresolved_ensembl_id
+GO:0000049	tRNA binding	63	62	98.41	62	58	4	1	1	0
+GO:0000149	SNARE binding	82	78	95.12	77	75	3	4	3	1
+GO:0000287	magnesium ion binding	237	232	97.89	239	225	7	5	5	0
+GO:0000993	RNA polymerase II complex binding	60	58	96.67	59	56	2	2	2	0
+GO:0001221	transcription coregulator binding	129	127	98.45	129	125	2	2	2	0
+GO:0001222	transcription corepressor binding	51	50	98.04	51	49	1	1	1	0
+GO:0001223	transcription coactivator binding	54	54	100.0	55	53	1	0	0	0
+GO:0001540	amyloid-beta binding	82	82	100.0	96	77	5	0	0	0
+GO:0001664	G protein-coupled receptor binding	298	268	89.93	277	244	24	30	28	2
+GO:0001786	phosphatidylserine binding	61	58	95.08	69	51	7	3	3	0
+GO:0002020	protease binding	137	129	94.16	164	115	14	8	8	0
+GO:0002039	p53 binding	71	70	98.59	72	67	3	1	1	0
+GO:0003678	DNA helicase activity	58	55	94.83	56	54	1	3	3	0
+GO:0003684	damaged DNA binding	75	73	97.33	75	71	2	2	2	0
+GO:0003697	single-stranded DNA binding	123	119	96.75	120	115	4	4	3	1
+GO:0003713	transcription coactivator activity	298	290	97.32	298	286	4	8	8	0
+GO:0003714	transcription corepressor activity	217	212	97.7	230	203	9	5	5	0
+GO:0003724	RNA helicase activity	74	71	95.95	74	69	2	3	3	0
+GO:0003725	double-stranded RNA binding	76	74	97.37	82	72	2	2	2	0
+GO:0003727	single-stranded RNA binding	84	80	95.24	84	75	5	4	3	1
+GO:0003730	mRNA 3'-UTR binding	114	108	94.74	105	100	8	6	6	0
+GO:0003735	structural constituent of ribosome	171	139	81.29	141	130	9	32	30	2
+GO:0003743	translation initiation factor activity	50	49	98.0	65	43	6	1	1	0
+GO:0003774	cytoskeletal motor activity	116	110	94.83	114	107	3	6	6	0
+GO:0003777	microtubule motor activity	68	64	94.12	67	62	2	4	4	0
+GO:0003823	antigen binding	200	112	56.0	224	35	77	88	75	13
+GO:0003925	G protein activity	134	124	92.54	125	121	3	10	10	0
+GO:0004197	cysteine-type endopeptidase activity	86	78	90.7	78	74	4	8	8	0
+GO:0004222	metalloendopeptidase activity	109	103	94.5	114	99	4	6	6	0
+GO:0004252	serine-type endopeptidase activity	179	162	90.5	189	140	22	17	14	3
+GO:0004386	helicase activity	131	125	95.42	128	123	2	6	6	0
+GO:0004497	monooxygenase activity	109	87	79.82	107	72	15	22	16	6
+GO:0004518	nuclease activity	216	198	91.67	214	186	12	18	7	11
+GO:0004519	endonuclease activity	138	123	89.13	137	115	8	15	4	11
+GO:0004520	DNA endonuclease activity	60	58	96.67	58	55	3	2	1	1
+GO:0004521	RNA endonuclease activity	81	68	83.95	82	63	5	13	3	10
+GO:0004527	exonuclease activity	84	82	97.62	81	82	0	2	2	0
+GO:0004536	DNA nuclease activity	80	78	97.5	77	75	3	2	1	1
+GO:0004540	RNA nuclease activity	133	119	89.47	134	111	8	14	4	10
+GO:0004553	hydrolase activity, hydrolyzing O-glycosyl compounds	91	84	92.31	89	78	6	7	6	1
+GO:0004620	glycerophospholipase activity	106	102	96.23	104	99	3	4	4	0
+GO:0004713	protein tyrosine kinase activity	140	140	100.0	140	140	0	0	0	0
+GO:0004714	transmembrane receptor protein tyrosine kinase activity	60	60	100.0	60	60	0	0	0	0
+GO:0004721	phosphoprotein phosphatase activity	173	161	93.06	161	157	4	12	12	0
+GO:0004722	protein serine/threonine phosphatase activity	104	95	91.35	95	92	3	9	9	0
+GO:0004725	protein tyrosine phosphatase activity	97	92	94.85	92	88	4	5	5	0
+GO:0004843	cysteine-type deubiquitinase activity	111	87	78.38	88	83	4	24	23	1
+GO:0004860	protein kinase inhibitor activity	95	91	95.79	98	89	2	4	4	0
+GO:0004866	endopeptidase inhibitor activity	164	139	84.76	184	118	21	25	20	5
+GO:0004867	serine-type endopeptidase inhibitor activity	89	81	91.01	111	73	8	8	7	1
+GO:0004879	nuclear receptor activity	59	59	100.0	59	59	0	0	0	0
+GO:0004896	cytokine receptor activity	102	98	96.08	108	93	5	4	1	3
+GO:0005080	protein kinase C binding	50	50	100.0	52	48	2	0	0	0
+GO:0005085	guanyl-nucleotide exchange factor activity	236	227	96.19	226	225	2	9	8	1
+GO:0005096	GTPase activator activity	249	227	91.16	226	220	7	22	20	2
+GO:0005125	cytokine activity	215	192	89.3	201	160	32	23	22	1
+GO:0005126	cytokine receptor binding	277	253	91.34	286	211	42	24	24	0
+GO:0005178	integrin binding	152	149	98.03	151	147	2	3	3	0
+GO:0005179	hormone activity	131	113	86.26	144	98	15	18	17	1
+GO:0005200	structural constituent of cytoskeleton	126	112	88.89	114	108	4	14	14	0
+GO:0005201	extracellular matrix structural constituent	181	163	90.06	163	162	1	18	18	0
+GO:0005230	extracellular ligand-gated monoatomic ion channel activity	74	69	93.24	69	69	0	5	5	0
+GO:0005246	calcium channel regulator activity	59	59	100.0	59	58	1	0	0	0
+GO:0005249	voltage-gated potassium channel activity	99	95	95.96	95	95	0	4	4	0
+GO:0005253	monoatomic anion channel activity	93	89	95.7	98	83	6	4	4	0
+GO:0005254	chloride channel activity	73	71	97.26	81	67	4	2	2	0
+GO:0005262	calcium channel activity	120	120	100.0	120	120	0	0	0	0
+GO:0005310	dicarboxylic acid transmembrane transporter activity	60	59	98.33	59	59	0	1	1	0
+GO:0005319	lipid carrier activity	154	147	95.45	159	143	4	7	6	1
+GO:0005496	steroid binding	103	102	99.03	113	100	2	1	1	0
+GO:0005506	iron ion binding	153	136	88.89	160	117	19	17	15	2
+GO:0005507	copper ion binding	61	58	95.08	66	55	3	3	3	0
+GO:0005516	calmodulin binding	127	125	98.43	147	124	1	2	2	0
+GO:0005518	collagen binding	66	64	96.97	64	64	0	2	2	0
+GO:0005539	glycosaminoglycan binding	174	163	93.68	173	158	5	11	11	0
+GO:0005544	calcium-dependent phospholipid binding	54	52	96.3	50	48	4	2	2	0
+GO:0005546	phosphatidylinositol-4,5-bisphosphate binding	84	83	98.81	88	78	5	1	1	0
+GO:0005549	odorant binding	74	55	74.32	171	24	31	19	19	0
+GO:0008009	chemokine activity	50	36	72.0	41	23	13	14	14	0
+GO:0008013	beta-catenin binding	107	105	98.13	107	103	2	2	2	0
+GO:0008017	microtubule binding	284	277	97.54	284	268	9	7	7	0
+GO:0008081	phosphoric diester hydrolase activity	87	87	100.0	88	86	1	0	0	0
+GO:0008083	growth factor activity	139	132	94.96	131	121	11	7	7	0
+GO:0008094	ATP-dependent activity, acting on DNA	130	123	94.62	125	121	2	7	6	1
+GO:0008146	sulfotransferase activity	53	50	94.34	56	44	6	3	3	0
+GO:0008170	N-methyltransferase activity	103	98	95.15	96	94	4	5	5	0
+GO:0008173	RNA methyltransferase activity	70	65	92.86	66	62	3	5	3	2
+GO:0008188	neuropeptide receptor activity	57	51	89.47	51	48	3	6	5	1
+GO:0008194	UDP-glycosyltransferase activity	147	137	93.2	138	128	9	10	10	0
+GO:0008200	ion channel inhibitor activity	52	49	94.23	49	49	0	3	3	0
+GO:0008201	heparin binding	131	124	94.66	134	119	5	7	7	0
+GO:0008234	cysteine-type peptidase activity	188	156	82.98	157	149	7	32	31	1
+GO:0008235	metalloexopeptidase activity	71	66	92.96	67	65	1	5	3	2
+GO:0008237	metallopeptidase activity	182	172	94.51	185	166	6	10	8	2
+GO:0008238	exopeptidase activity	104	99	95.19	100	98	1	5	3	2
+GO:0008276	protein methyltransferase activity	98	95	96.94	93	91	4	3	3	0
+GO:0008408	3'-5' exonuclease activity	60	59	98.33	58	59	0	1	1	0
+GO:0008509	monoatomic anion transmembrane transporter activity	139	134	96.4	143	127	7	5	5	0
+GO:0008528	G protein-coupled peptide receptor activity	124	109	87.9	115	104	5	15	14	1
+GO:0008757	S-adenosylmethionine-dependent methyltransferase activity	170	160	94.12	160	152	8	10	8	2
+GO:0009055	electron transfer activity	111	105	94.59	113	100	5	6	6	0
+GO:0015026	coreceptor activity	68	65	95.59	71	61	4	3	2	1
+GO:0015078	proton transmembrane transporter activity	188	181	96.28	182	177	4	7	7	0
+GO:0015079	potassium ion transmembrane transporter activity	160	156	97.5	156	156	0	4	4	0
+GO:0015081	sodium ion transmembrane transporter activity	168	166	98.81	168	159	7	2	2	0
+GO:0015108	chloride transmembrane transporter activity	111	108	97.3	118	103	5	3	3	0
+GO:0015171	amino acid transmembrane transporter activity	101	99	98.02	100	97	2	2	1	1
+GO:0015179	L-amino acid transmembrane transporter activity	62	61	98.39	62	60	1	1	0	1
+GO:0015276	ligand-gated monoatomic ion channel activity	185	177	95.68	178	176	1	8	8	0
+GO:0015291	secondary active transmembrane transporter activity	261	253	96.93	265	241	12	8	7	1
+GO:0015294	solute:monoatomic cation symporter activity	122	121	99.18	123	114	7	1	1	0
+GO:0015297	antiporter activity	120	115	95.83	115	115	0	5	4	1
+GO:0015370	solute:sodium symporter activity	84	83	98.81	85	76	7	1	1	0
+GO:0015399	primary active transmembrane transporter activity	165	160	96.97	162	157	3	5	5	0
+GO:0015453	oxidoreduction-driven active transmembrane transporter activity	66	63	95.45	64	61	2	3	3	0
+GO:0015459	potassium channel regulator activity	66	63	95.45	64	61	2	3	3	0
+GO:0015485	cholesterol binding	58	57	98.28	57	57	0	1	1	0
+GO:0015605	organophosphate ester transmembrane transporter activity	53	51	96.23	50	48	3	2	1	1
+GO:0015932	nucleobase-containing compound transmembrane transporter activity	59	57	96.61	57	53	4	2	1	1
+GO:0016209	antioxidant activity	72	66	91.67	69	63	3	6	5	1
+GO:0016251	RNA polymerase II general transcription initiation factor activity	54	40	74.07	41	35	5	14	14	0
+GO:0016279	protein-lysine N-methyltransferase activity	63	60	95.24	58	56	4	3	3	0
+GO:0016407	acetyltransferase activity	91	86	94.51	91	78	8	5	5	0
+GO:0016504	peptidase activator activity	61	59	96.72	64	53	6	2	2	0
+GO:0016538	cyclin-dependent protein serine/threonine kinase regulator activity	53	48	90.57	47	46	2	5	4	1
+GO:0016616	oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor	125	113	90.4	129	100	13	12	11	1
+GO:0016627	oxidoreductase activity, acting on the CH-CH group of donors	62	58	93.55	62	55	3	4	4	0
+GO:0016651	oxidoreductase activity, acting on NAD(P)H	92	86	93.48	87	84	2	6	6	0
+GO:0016655	oxidoreductase activity, acting on NAD(P)H, quinone or similar compound as acceptor	60	55	91.67	56	53	2	5	5	0
+GO:0016667	oxidoreductase activity, acting on a sulfur group of donors	57	57	100.0	59	55	2	0	0	0
+GO:0016705	oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen	192	164	85.42	186	147	17	28	22	6
+GO:0016706	2-oxoglutarate-dependent dioxygenase activity	68	64	94.12	64	64	0	4	4	0
+GO:0016712	oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen	50	42	84.0	62	27	15	8	6	2
+GO:0016747	acyltransferase activity, transferring groups other than amino-acyl groups	226	215	95.13	219	202	13	11	11	0
+GO:0016757	glycosyltransferase activity	265	247	93.21	247	233	14	18	17	1
+GO:0016758	hexosyltransferase activity	197	181	91.88	180	168	13	16	15	1
+GO:0016763	pentosyltransferase activity	51	50	98.04	52	48	2	1	1	0
+GO:0016765	transferase activity, transferring alkyl or aryl (other than methyl) groups	62	55	88.71	58	51	4	7	5	2
+GO:0016779	nucleotidyltransferase activity	132	113	85.61	120	112	1	19	7	12
+GO:0016782	transferase activity, transferring sulphur-containing groups	70	67	95.71	75	59	8	3	3	0
+GO:0016791	phosphatase activity	274	260	94.89	259	252	8	14	14	0
+GO:0016798	hydrolase activity, acting on glycosyl bonds	124	117	94.35	122	111	6	7	6	1
+GO:0016810	hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds	129	119	92.25	118	117	2	10	10	0
+GO:0016811	hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds, in linear amides	70	67	95.71	66	65	2	3	3	0
+GO:0016829	lyase activity	195	185	94.87	196	177	8	10	8	2
+GO:0016830	carbon-carbon lyase activity	54	51	94.44	54	46	5	3	3	0
+GO:0016835	carbon-oxygen lyase activity	80	78	97.5	79	77	1	2	1	1
+GO:0016836	hydro-lyase activity	62	60	96.77	61	59	1	2	1	1
+GO:0016860	intramolecular oxidoreductase activity	54	48	88.89	56	44	4	6	6	0
+GO:0016874	ligase activity	160	157	98.12	157	152	5	3	3	0
+GO:0016922	nuclear receptor binding	138	137	99.28	138	135	2	1	1	0
+GO:0017022	myosin binding	74	73	98.65	73	73	0	1	1	0
+GO:0017046	peptide hormone binding	52	51	98.08	51	50	1	1	1	0
+GO:0017124	SH3 domain binding	64	63	98.44	65	62	1	1	1	0
+GO:0018455	alcohol dehydrogenase [NAD(P)+] activity	56	46	82.14	52	37	9	10	9	1
+GO:0019003	GDP binding	63	62	98.41	64	61	1	1	1	0
+GO:0019199	transmembrane receptor protein kinase activity	78	78	100.0	78	78	0	0	0	0
+GO:0019829	ATPase-coupled monoatomic cation transmembrane transporter activity	54	54	100.0	54	54	0	0	0	0
+GO:0019838	growth factor binding	128	123	96.09	125	122	1	5	4	1
+GO:0019842	vitamin binding	132	127	96.21	128	125	2	5	5	0
+GO:0019843	rRNA binding	61	56	91.8	60	54	2	5	5	0
+GO:0019887	protein kinase regulator activity	270	259	95.93	272	252	7	11	10	1
+GO:0019888	protein phosphatase regulator activity	101	95	94.06	104	87	8	6	6	0
+GO:0019902	phosphatase binding	194	191	98.45	223	182	9	3	3	0
+GO:0019903	protein phosphatase binding	147	145	98.64	178	138	7	2	2	0
+GO:0019955	cytokine binding	141	136	96.45	141	131	5	5	2	3
+GO:0020037	heme binding	143	122	85.31	145	103	19	21	16	5
+GO:0022843	voltage-gated monoatomic cation channel activity	144	140	97.22	140	140	0	4	4	0
+GO:0022853	active monoatomic ion transmembrane transporter activity	115	112	97.39	113	110	2	3	3	0
+GO:0030145	manganese ion binding	70	69	98.57	70	68	1	1	1	0
+GO:0030159	signaling receptor complex adaptor activity	54	53	98.15	53	52	1	1	1	0
+GO:0030165	PDZ domain binding	88	87	98.86	89	85	2	1	1	0
+GO:0030170	pyridoxal phosphate binding	55	54	98.18	54	54	0	1	1	0
+GO:0030246	carbohydrate binding	177	165	93.22	173	141	24	12	12	0
+GO:0030280	structural constituent of skin epidermis	63	48	76.19	53	41	7	15	14	1
+GO:0030291	protein serine/threonine kinase inhibitor activity	56	54	96.43	55	53	1	2	2	0
+GO:0030295	protein kinase activator activity	144	139	96.53	145	134	5	5	4	1
+GO:0030527	structural constituent of chromatin	65	42	64.62	59	33	9	23	23	0
+GO:0030544	Hsp70 protein binding	53	51	96.23	51	51	0	2	1	1
+GO:0030547	signaling receptor inhibitor activity	50	36	72.0	48	33	3	14	2	12
+GO:0030594	neurotransmitter receptor activity	97	90	92.78	90	90	0	7	7	0
+GO:0030971	receptor tyrosine kinase binding	82	77	93.9	77	77	0	5	5	0
+GO:0031072	heat shock protein binding	133	127	95.49	128	123	4	6	5	1
+GO:0031267	small GTPase binding	289	287	99.31	288	285	2	2	2	0
+GO:0031406	carboxylic acid binding	206	190	92.23	195	170	20	16	15	1
+GO:0031490	chromatin DNA binding	130	122	93.85	124	120	2	8	8	0
+GO:0031491	nucleosome binding	81	73	90.12	75	71	2	8	8	0
+GO:0031593	polyubiquitin modification-dependent protein binding	57	57	100.0	58	56	1	0	0	0
+GO:0031625	ubiquitin protein ligase binding	289	281	97.23	295	267	14	8	7	1
+GO:0033293	monocarboxylic acid binding	81	72	88.89	81	65	7	9	8	1
+GO:0034212	protein N-acetyltransferase activity	51	47	92.16	49	43	4	4	4	0
+GO:0035091	phosphatidylinositol binding	114	110	96.49	110	110	0	4	2	2
+GO:0035591	signaling adaptor activity	144	139	96.53	142	134	5	5	5	0
+GO:0038024	cargo receptor activity	76	73	96.05	79	70	3	3	3	0
+GO:0038187	pattern recognition receptor activity	56	52	92.86	66	46	6	4	4	0
+GO:0042054	histone methyltransferase activity	58	56	96.55	56	55	1	2	2	0
+GO:0042277	peptide binding	179	168	93.85	212	143	25	11	8	3
+GO:0042379	chemokine receptor binding	74	56	75.68	61	38	18	18	18	0
+GO:0042393	histone binding	175	157	89.71	158	154	3	18	17	1
+GO:0042562	hormone binding	94	92	97.87	93	90	2	2	2	0
+GO:0042626	ATPase-coupled transmembrane transporter activity	99	97	97.98	98	96	1	2	2	0
+GO:0042826	histone deacetylase binding	131	126	96.18	133	116	10	5	5	0
+GO:0043021	ribonucleoprotein complex binding	178	175	98.31	185	160	15	3	3	0
+GO:0043022	ribosome binding	113	113	100.0	117	102	11	0	0	0
+GO:0043130	ubiquitin binding	104	100	96.15	101	99	1	4	3	1
+GO:0043178	alcohol binding	89	87	97.75	87	87	0	2	2	0
+GO:0043495	protein-membrane adaptor activity	58	56	96.55	56	56	0	2	2	0
+GO:0043539	protein serine/threonine kinase activator activity	76	72	94.74	78	67	5	4	3	1
+GO:0044183	protein folding chaperone	84	73	86.9	74	70	3	11	11	0
+GO:0044325	transmembrane transporter binding	149	146	97.99	146	141	5	3	3	0
+GO:0045182	translation regulator activity	63	60	95.24	57	53	7	3	3	0
+GO:0045309	protein phosphorylated amino acid binding	59	58	98.31	59	57	1	1	1	0
+GO:0046332	SMAD binding	79	78	98.73	78	77	1	1	1	0
+GO:0046943	carboxylic acid transmembrane transporter activity	191	184	96.34	217	174	10	7	6	1
+GO:0048029	monosaccharide binding	67	64	95.52	70	59	5	3	3	0
+GO:0048306	calcium-dependent protein binding	81	73	90.12	77	71	2	8	8	0
+GO:0050660	flavin adenine dinucleotide binding	86	84	97.67	85	82	2	2	1	1
+GO:0050661	NADP binding	53	50	94.34	52	46	4	3	2	1
+GO:0050840	extracellular matrix binding	62	61	98.39	60	59	2	1	1	0
+GO:0051015	actin filament binding	210	206	98.1	207	204	2	4	4	0
+GO:0051018	protein kinase A binding	53	51	96.23	51	51	0	2	2	0
+GO:0051087	protein-folding chaperone binding	138	134	97.1	136	130	4	4	2	2
+GO:0051117	ATPase binding	88	86	97.73	87	85	1	2	2	0
+GO:0051213	dioxygenase activity	92	88	95.65	88	88	0	4	4	0
+GO:0051219	phosphoprotein binding	95	94	98.95	95	93	1	1	1	0
+GO:0051287	NAD binding	54	53	98.15	56	50	3	1	1	0
+GO:0051536	iron-sulfur cluster binding	51	50	98.04	50	46	4	1	1	0
+GO:0052689	carboxylic ester hydrolase activity	151	144	95.36	159	138	6	7	5	2
+GO:0061134	peptidase regulator activity	230	201	87.39	250	174	27	29	24	5
+GO:0061980	regulatory RNA binding	50	48	96.0	49	46	2	2	2	0
+GO:0070063	RNA polymerase binding	84	81	96.43	83	78	3	3	3	0
+GO:0070851	growth factor receptor binding	140	139	99.29	146	137	2	1	1	0
+GO:0070888	E-box binding	60	60	100.0	60	60	0	0	0	0
+GO:0072341	modified amino acid binding	89	84	94.38	99	74	10	5	5	0
+GO:0097110	scaffold protein binding	77	75	97.4	76	74	1	2	2	0
+GO:0098631	cell adhesion mediator activity	104	102	98.08	109	96	6	2	2	0
+GO:0098632	cell-cell adhesion mediator activity	66	66	100.0	72	64	2	0	0	0
+GO:0099094	ligand-gated monoatomic cation channel activity	137	130	94.89	130	130	0	7	7	0
+GO:0099106	ion channel regulator activity	175	167	95.43	168	164	3	8	8	0
+GO:0120013	lipid transfer activity	78	75	96.15	75	75	0	3	2	1
+GO:0120543	macromolecular conformation isomerase activity	268	256	95.52	262	252	4	12	12	0
+GO:0120544	polypeptide conformation or assembly isomerase activity	124	118	95.16	121	116	2	6	6	0
+GO:0140006	histone H3 reader activity	74	68	91.89	82	65	3	6	6	0
+GO:0140030	modification-dependent protein binding	83	83	100.0	84	82	1	0	0	0
+GO:0140097	catalytic activity, acting on DNA	271	249	91.88	251	243	6	22	10	12
+GO:0140101	catalytic activity, acting on a tRNA	156	154	98.72	156	148	6	2	1	1
+GO:0140223	general transcription initiation factor activity	69	52	75.36	53	47	5	17	17	0
+GO:0140296	general transcription initiation factor binding	54	53	98.15	52	51	2	1	1	0
+GO:0140299	molecular sensor activity	84	80	95.24	79	78	2	4	3	1
+GO:0140303	intramembrane lipid carrier activity	59	58	98.31	61	56	2	1	1	0
+GO:0140311	protein sequestering activity	67	63	94.03	64	62	1	4	4	0
+GO:0140313	molecular sequestering activity	102	93	91.18	96	89	4	9	9	0
+GO:0140359	ABC-type transporter activity	51	49	96.08	50	48	1	2	2	0
+GO:0140375	immune receptor activity	194	156	80.41	167	121	35	38	15	23
+GO:0140566	histone reader activity	116	110	94.83	122	104	6	6	6	0
+GO:0140597	protein carrier activity	72	72	100.0	72	72	0	0	0	0
+GO:0140693	molecular condensate scaffold activity	54	53	98.15	54	52	1	1	1	0
+GO:0140993	histone modifying activity	202	197	97.52	197	193	4	5	5	0
+GO:0160215	deacylase activity	81	79	97.53	91	74	5	2	0	2
+GO:0170055	lipid transmembrane transporter activity	58	53	91.38	84	48	5	5	5	0
+GO:0180051	translation factor activity	79	77	97.47	92	69	8	2	2	0
+GO:1901505	carbohydrate derivative transmembrane transporter activity	61	59	96.72	61	56	3	2	1	1
+GO:1901681	sulfur compound binding	227	218	96.04	239	207	11	9	9	0
+GO:1901682	sulfur compound transmembrane transporter activity	63	61	96.83	61	61	0	2	2	0
+GO:1901981	phosphatidylinositol phosphate binding	183	180	98.36	184	174	6	3	3	0
+GO:1902936	phosphatidylinositol bisphosphate binding	124	122	98.39	127	117	5	2	2	0
+GO:1904315	transmitter-gated monoatomic ion channel activity involved in regulation of postsynaptic membrane potential	50	49	98.0	49	49	0	1	1	0
+GO:1990756	ubiquitin-like ligase-substrate adaptor activity	153	149	97.39	215	124	25	4	3	1
+GO:1990782	protein tyrosine kinase binding	120	114	95.0	139	110	4	6	6	0
+GO:1990841	promoter-specific chromatin binding	80	79	98.75	79	76	3	1	1	0

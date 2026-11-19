@@ -5,7 +5,7 @@
  2. Annotation: DB/goa_human.gaf.gz -- UniProtKB human MF annotations; NOT qualifier and
                 ND evidence removed; all other evidence codes (including IEA) kept.
  3. Propagate : every gene annotated to a term is added to all of its is_a ancestors.
- 4. Size      : keep terms with MIN..MAX genes (default 50-200), at any GO depth.
+ 4. Size      : keep terms with MIN..MAX genes (default 50-300), at any GO depth.
  5. Redundancy: terms are visited most-specific first (descending maximum is_a depth, so every
                 descendant is visited before its ancestors). A term is removed when an already
                 retained term has an identical gene set (exact duplicate), or when a retained
@@ -258,7 +258,7 @@ def main():
     p.add_argument('--db', type=Path, default=HERE / 'DB', help='folder with go-basic.obo and goa_human.gaf.gz')
     p.add_argument('--outdir', type=Path, default=HERE / 'results')
     p.add_argument('--min-genes', type=int, default=50)
-    p.add_argument('--max-genes', type=int, default=200)
+    p.add_argument('--max-genes', type=int, default=300)
     p.add_argument('--jaccard', type=float, default=0.8, help='hierarchical near-duplicate threshold')
     a = p.parse_args()
     if not 1 <= a.min_genes <= a.max_genes:
@@ -376,9 +376,10 @@ def main():
         'gmt': a.outdir / f'GO_MF_gene_sets_{tag}.gmt',
         'sets': a.outdir / f'GO_MF_gene_sets_{tag}.tsv',
         'membership': a.outdir / f'GO_MF_gene_set_membership_{tag}.tsv',
-        'candidates': a.outdir / f'GO_MF_candidates_{tag}_redundancy_audit.tsv',
-        'overlaps': a.outdir / f'GO_MF_gene_set_overlaps_{tag}.tsv',
+        'candidates': a.outdir / 'validation' / f'GO_MF_candidates_{tag}_redundancy_audit.tsv',
+        'overlaps': a.outdir / 'validation' / f'GO_MF_gene_set_overlaps_{tag}.tsv',
     }
+    (a.outdir / 'validation').mkdir(exist_ok=True)
     with open(out['gmt'], 'w', encoding='utf-8', newline='\n') as fh:
         for r in set_rows:
             fh.write('\t'.join([r['GO_ID'], r['GO_term'], *r['genes'].split(';')]) + '\n')
@@ -439,7 +440,7 @@ def main():
         },
         'gaf_qc': dict(sorted(gaf_qc.items())),
         'summary': summary,
-        'outputs': {p.name: sha256(p) for p in out.values()},
+        'outputs': {p.relative_to(a.outdir).as_posix(): sha256(p) for p in out.values()},
     }
     (a.outdir / 'run_metadata.json').write_text(json.dumps(metadata, indent=2, ensure_ascii=False) + '\n', encoding='utf-8')
 

@@ -1,0 +1,70 @@
+{
+ "gene_symbols": {
+  "unresolved_ensembl_id": 113,
+  "one2one": 9616,
+  "one2many": 416,
+  "no_mouse_ortholog": 740,
+  "many2many": 201
+ },
+ "ensembl_ids": {
+  "one2one": 9615,
+  "one2many": 415,
+  "no_mouse_ortholog": 739,
+  "many2many": 200
+ },
+ "resolution": {
+  "not_found": 74,
+  "uniprot": 10791,
+  "uniprot_multi_symbol_tiebreak": 34,
+  "symbol_fallback": 148,
+  "ambiguous_symbol": 33,
+  "ambiguous_uniprot": 6
+ },
+ "shared": {
+  "ENSG00000270550": [
+   "IGHV3-30",
+   "IGHV3-30-5"
+  ],
+  "ENSG00000231475": [
+   "IGHV4-30-2",
+   "IGHV4-31"
+  ],
+  "ENSG00000162039": [
+   "MEIOB",
+   "MGC35212"
+  ],
+  "ENSG00000204501": [
+   "PRAMEF15",
+   "PRAMEF9"
+  ]
+ },
+ "pairs_all": 14067,
+ "pairs_one2one": 9615,
+ "distinct_mouse_all": 10942,
+ "compara_rows": {
+  "compara_mouse": 23764
+ },
+ "validation": [
+  "PASS all 11,086 input symbols have one status row",
+  "PASS all 270 GO sets represented",
+  "PASS per-set gene counts sum to 30203 membership rows",
+  "PASS per-set categories are exhaustive and exclusive",
+  "PASS every mapped pair exists in Compara r116",
+  "PASS no duplicate pairs in complete table",
+  "PASS one-to-one table: each human and each mouse gene appears once; neither has any other mouse/human ortholog in r116",
+  "PASS every non-one-to-one pair really involves >1 partner on at least one side (no collapsing)",
+  "PASS complete table keeps all 14067 Compara pairs of the resolved human genes",
+  "PASS all IDs have Ensembl stable-ID format; no GO symbol is an Ensembl ID (the real symbol ENSA is a gene name)",
+  "PASS unresolved genes have no ID; no-ortholog genes have an ID and no Compara mouse ortholog",
+  "PASS all 148 symbol-fallback matches are unique in the r116 GTF",
+  "PASS Compara rows = unique pairs (no double counting between files)",
+  "PASS all 9742 genes of the 50-200 run reproduce the same Ensembl ID and category (0 differences)"
+ ],
+ "input_md5": {
+  "compara_human": "59857f48bbbdf6812999d58d7a24ccc4",
+  "compara_mouse": "8f9870f0f12ece5032f8e62117de9924",
+  "uniprot_xref": "b296e0da72d5622004fa777447ec8775",
+  "human_gtf": "d6cc2d7afb36bc0040c640cba65c2217",
+  "mouse_gtf": "adf6c7dc3c5f5c29702a8215ff3db380"
+ }
+}
